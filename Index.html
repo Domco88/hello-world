@@ -5,30 +5,33 @@
 </head>
 
 <body>
-    <h1>Index</h1>
-    <ul>
-        <li>
-            <a href="views/Zones.html">Zones</a>
-            <a href="views/Program.html">Program</a>
-            <a href="views/Log.html">Log</a>
-            <a href="views/Settings.html">Settings</a>
-        </li>
+    <ul class="menu">
+           <li><a href="views/Zones.html">Zones</a></li>
+           <li><a href="views/Program.html">Program</a></li>
+           <li><a href="views/Log.html">Log</a></li>
+           <li><a href="views/Settings.html">Settings</a></li>
     </ul>
-    <table class="table-default" >
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
+    <table class="table-default">
+        <tr class="Main-Row">
+            <th>Name</th>
+            <th>Enabled</th>
+            <th>Soil</th>
+            <th>Id</th>
+            <th class="Edit"></th>
         </tr>
-        <tr>
-            <td>Jill</td>
-            <td>Smith</td>
-            <td>50</td>
+        <tr class="Row-A">
+            <td>Garden Little</td>
+            <td>Y</td>
+            <td>Sand</td>
+            <td>1</td>
+            <td class="Edit"><a href="views/Edit.html">Edit</a></td>
         </tr>
-        <tr>
-            <td>Eve</td>
-            <td>Jackson</td>
-            <td>94</td>
+        <tr class="Row-B">
+            <td>Garden Big</td>
+            <td>N</td>
+            <td>Ill</td>
+            <td>2</td>
+            <td class="Edit"><a href="views/Edit.html">Edit</a></td>
         </tr>
     </table>
 </body>

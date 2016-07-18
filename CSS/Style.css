@@ -1,5 +1,26 @@
-a {
-    color: darkred;
+
+ul {
+    list-style-type: none;
+    margin-bottom: 50;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #383838;
 }
 
 /*h1 {
@@ -11,16 +32,30 @@ a {
     line-height: 200px;
     word-spacing: 0px;
 }*/
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
+
 th {
     padding: 5px;
     text-align: left;
+    background-color: darkcyan;
 }
 
 .table-default {
-    width: 100%; 
-    background-color: #f1f1c1;
+    width: 100%;
+    border: 1px black;
+    border-collapse: collapse;
+
+}
+.Main-Row{
+    color: white;
+}
+
+ul.active a
+{
+    color: red;
+}
+body
+{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
 }
