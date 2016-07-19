@@ -59,9 +59,16 @@ body
     margin-right:auto;
 }
 div {
-    background-color: #263747;
-    color: white;
-    margin: 10px 300px 10px 300px;
-    padding: 10px; 
-
+    background-color: #333;
+    border-color: #1f1f1f;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px 215px 10px 215px;
+    font-family: "Comic Sans MS", cursive, sans-serif;	
+}
+h1{
+    font-size: 200%
 }
